@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: copperplate gothic bold;
+}
+
+body{
+	background: #556B2F;
+}
+.logo{
+	color: #556B2F ;
+	background: #DAA520;
+	text-align: center;
+	padding: 15px;
+	font-size: 30px;
+}
+
+.menu{
+	color: #556B2F ;
+	background: #DAA520;
+	text-align: center;
+	padding: 15px;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #556B2F;
+    padding: 8px;
+}
+
+a:hover{
+    color: #DAA520;
+    background-color: #556B2F;
+}
+.rodape{
+	text-align: center;
+	margin: 30px;
+	padding: 10px;
+	color: #4F4F4F ;
+	font-size: 20px;
+	background: #DAA520;
+}
+
+
+
+.dona{
+	border-radius: 100px;
+	display: block;
+	margin: 10px;
+}
+
+h3{
+	padding: 10px;
+	color: #B0C4DE ;
+	font-size: 25px;
+}
+
+p{
+	padding: 10px;
+	color: #B0C4DE ;
+	font-size: 18px;
+
+}
+
+.input{
+	text-align: center;
+	margin: 30px;
+	padding: 10px;
+	color: #556B2F;
+	font-size: 20px;
+	background: #DAA520;
+	border: solid 3px #556B2F;
+
+}
+
+input{
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+	border: solid 3px #556B2F;	
+}
+
+button{
+	color:#556B2F ;
+	border: solid 3px #556B2F;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 20px;
+}
+button:hover{
+	color: #DAA520;
+    background-color: #556B2F;
+}

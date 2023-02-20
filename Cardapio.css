@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: copperplate gothic bold;
+}
+
+body{
+	background: #556B2F;
+}
+.logo{
+	color: #556B2F ;
+	background: #DAA520;
+	text-align: center;
+	padding: 15px;
+	font-size: 30px;
+}
+
+.menu{
+	color: #556B2F ;
+	background: #DAA520;
+	text-align: center;
+	padding: 15px;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #556B2F;
+    padding: 8px;
+}
+
+a:hover{
+    color: #DAA520;
+    background-color: #556B2F;
+}
+.rodape{
+	text-align: center;
+	margin: 30px;
+	padding: 10px;
+	color: #4F4F4F ;
+	font-size: 20px;
+	background: #DAA520;
+}
+
+
+#cardapio{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding-top: 40px;
+
+}
+#cardapio img{
+	padding: 5px;
+	width: 350px;
+	height: 220px;
+	border-radius: 30px;
+
+}
+#item{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color:#DAA520;
+	background: #556B2F;
+	margin: 10px;
+	padding: 20px;
+}
+
+#item p{
+	font-size: 14px;
+
+}
+
+#item button{
+	background:#DAA520;
+	border: none;
+	padding: 10px;
+	color:  #556B2F;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#item button:hover{
+	color: #DAA520;
+    background-color: #556B2F;
+}
